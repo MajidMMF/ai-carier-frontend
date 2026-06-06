@@ -351,7 +351,7 @@ const BuildResumePage = () => {
                     ))}
                     <button
                       onClick={() =>
-                        updateExp(ei, "bullets", [...exp.bullets, ""])
+                        updateExp(exp.id!, "bullets", [...exp.bullets, ""])
                       }
                       className="feature-pill self-start gap-1.5 cursor-pointer hover:border-white/15 transition-colors"
                     >
