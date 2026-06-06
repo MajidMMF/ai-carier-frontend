@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   useEffect(() => {
@@ -12,11 +13,10 @@ const Footer = () => {
       </span>
       <span>©️ {new Date().getFullYear()} CareerAI. All rights reserved.</span>
       <div className="flex gap-5">
-        {["Privacy", "Terms", "Contact"].map((i) => (
-          <a key={i} href="#" className="hover:text-white/60 transition-colors">
-            {i}
-          </a>
-        ))}
+        <Link to="/privacy" className="hover:text-white/60 transition-colors">Privacy</Link>
+        <Link to="/terms" className="hover:text-white/60 transition-colors">Terms</Link>
+        <Link to="/contact" className="hover:text-white/60 transition-colors">Contact</Link>
+        <Link to="/developer" className="hover:text-white/60 transition-colors">Developer</Link>
       </div>
     </footer>
   );

@@ -14,6 +14,7 @@ import Analyse from "./pages/Analyse"
 import JobMatcher from "./pages/JobMatcher"
 import InterviewPrep from "./pages/Interview"
 import BuildResume from "./pages/BuildResume"
+import Developer from "./pages/Developer"
 
 const App = () => {
   const { loading } = useAppData()
@@ -25,6 +26,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/developer" element={<Developer />} />
         <Route element={<PublicRoutes />}>
           <Route path="/login" element={<Login />} />
         </Route>
@@ -34,12 +36,13 @@ const App = () => {
           <Route path="/jobmatcher" element={<JobMatcher />} />
           <Route path="/interviewprep" element={<InterviewPrep />} />
           <Route path="/resumebuilder" element={<BuildResume />} />
+        </Route>
+
           
 
-        </Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </BrowserRouter >
   )
 }
 
