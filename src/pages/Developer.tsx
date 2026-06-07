@@ -22,7 +22,7 @@ const Developer = () => {
                 <img src="/my-image.jpeg" alt="Majid" className="w-full h-full object-cover" />
               </div>
               <h2 className="text-2xl font-bold text-gradient">Majid</h2>
-              <p className="text-white/60 mt-1">MERN Full‑Stack Developer · DevOps</p>
+              <p className="text-white/60 mt-1">MERN Full‑Stack Developer.</p>
 
               <div className="mt-4 w-full">
                 <a href={linkedIn} target="_blank" rel="noreferrer" className="btn-primary w-full inline-block py-2 rounded-xl text-center">View LinkedIn</a>
@@ -32,7 +32,7 @@ const Developer = () => {
               <div className="mt-6 w-full text-left">
                 <h4 className="text-xs text-white/40 uppercase tracking-widest">Quick Stats</h4>
                 <ul className="mt-2 text-sm text-white/70">
-                  <li>5+ years building production web apps</li>
+                  <li>1+ years building production web apps</li>
                   <li>Multiple deployed MERN projects</li>
                   <li>CI/CD + containerization experience</li>
                 </ul>
@@ -43,7 +43,7 @@ const Developer = () => {
               <section className="mb-6">
                 <h3 className="text-lg font-semibold">About me</h3>
                 <p className="text-white/70 mt-2">
-                  I'm Majid — a practical full‑stack engineer focused on building
+                  I'm Majid — a practical full‑stack developer focused on building
                   performant user experiences and resilient backend systems. I enjoy
                   solving product problems end‑to‑end, and improving delivery with
                   automation and reliable infrastructure.
